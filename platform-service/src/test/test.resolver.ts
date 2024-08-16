@@ -20,7 +20,7 @@ export class TestResolver {
     return this.testService.create(createTestInput);
   }
   @Directive('@public') // Apply the custom directive
-  @Query(() => [Test], { name: 'test' })
+  @Query(() => [Test], { name: 'findAllTest' })
   findAll() {
     return this.testService.findAll();
   }

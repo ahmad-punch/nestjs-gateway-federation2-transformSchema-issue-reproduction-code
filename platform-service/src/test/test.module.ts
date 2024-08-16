@@ -4,5 +4,6 @@ import { TestResolver } from './test.resolver';
 
 @Module({
   providers: [TestResolver, TestService],
+  exports: [TestService],
 })
 export class TestModule {}

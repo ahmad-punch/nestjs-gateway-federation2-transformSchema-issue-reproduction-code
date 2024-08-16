@@ -46,11 +46,11 @@ import {
       typeDefs: `
     directive @public on FIELD_DEFINITION
   `,
-      resolvers: {
-        JSONObject: GraphQLJSONObject,
-        DateTime: DateTimeResolver,
-        ObjectID: ObjectIDResolver,
-      },
+      // resolvers: {
+      //   JSONObject: GraphQLJSONObject,
+      //   DateTime: DateTimeResolver,
+      //   ObjectID: ObjectIDResolver,
+      // },
       // typePaths: ['./**/*.graphql'],
       // definitions: {
       //   path: join(process.cwd(), 'src/graphql.classes.ts'),

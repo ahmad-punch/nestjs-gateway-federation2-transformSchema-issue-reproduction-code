@@ -9,7 +9,7 @@ export class TestService {
   }
 
   findAll() {
-    return `This action returns all test`;
+    return [{ exampleField: `This action returns all test` }];
   }
 
   findOne(id: number) {
